@@ -1,14 +1,10 @@
 package sg.nus.iss.javaspring.coins.DTO;
 
 import jakarta.validation.constraints.*;
-import lombok.Getter;
-import lombok.Setter;
+
 import sg.nus.iss.javaspring.coins.validator.ValidDenomination;
 
 import java.util.List;
-
-@Setter
-@Getter
 
 public class AmountRequest {
     @NotNull(message="please enter amount")
